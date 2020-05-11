@@ -1,4 +1,15 @@
-# SpringCloud Alibaba集成
+---
+layout: post
+title:  "SpringCloud Alibaba集成"
+categories: flink
+tags:  Java Spring 微服务  
+author: Jimmy-Shen
+excerpt: 如何在实际应用集成springcloud alibaba
+---
+
+* content
+{:toc}
+
 
 ## 背景
 在国内集成SpringCloud(下面简称：SC)，在SC1.0版本的时候，基本上选择的都是Netflix开源的众多组件，比如：服务发现Eureka、客户端负载均衡Ribbon、熔断器Hystrix、服务网关Zuul等开源组件；但在SC2.0版本之后，情况发现了改变，比如：服务发现Eureka闭源、Hystrix不在进行后续开发等问题。使得我们不得不寻找替换的组件，幸运的是阿里巴巴集成提供了一整套的可替换的开源组件，下面主要围绕集成SpringCloud Alibaba开源框架进行展开。
